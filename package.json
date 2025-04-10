@@ -12,10 +12,14 @@
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-scripts": "^4.0.3",
-    "@sendgrid/mail": "^7.4.5",
+    "@babel/eslint-parser": "^7.15.0",  // обновление для babel-eslint
+    "uuid": "^7.0.0",  // обновление для uuid
+    "rimraf": "^4.0.0",  // обновление для rimraf
+    "core-js": "^3.23.3",  // обновление для core-js
     "firebase": "^9.0.0",
     "react-router-dom": "^5.1.0",
-    "react-bootstrap": "^1.5.2"
+    "react-bootstrap": "^1.5.2",
+    "@sendgrid/mail": "^7.4.5"
   },
   "devDependencies": {},
   "browserslist": {
@@ -29,5 +33,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "7.x"
   }
 }
